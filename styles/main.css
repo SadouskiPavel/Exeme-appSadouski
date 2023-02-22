@@ -1,0 +1,21 @@
+@import "reset.css";
+@import "app.css";
+@import "variables.css";
+@import "container.css";
+@import "header.css";
+@import "block1.css";
+@import "block2.css";
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Yellowtail&display=swap');
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+font-family: 'Yellowtail', cursive , sans-serif;
+}
+
+a {
+    text-decoration: none;
+}

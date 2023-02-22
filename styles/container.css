@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    height: 9800px;
+    outline: 1px solid black;
+    margin: 0 auto;
+}
