@@ -5,7 +5,6 @@
     justify-content: space-evenly;
     max-width: 1440px;
     height: 658px;
-    outline: 1px solid red;
 }
 
 .block2__imagePinq {
@@ -16,6 +15,8 @@
     width: 665px;
     height: 378px;
     background-image: url(../images/block2-image-pinq.svg);
+    border-radius: 30px;
+    box-shadow: 1px 6px 19px -6px #000000;
 }
 
 .block2__imageGrey {
@@ -26,6 +27,8 @@
     width: 665px;
     height: 378px;
     background-image: url(../images/block2-image-grey.svg);
+    border-radius: 30px;
+    box-shadow: 1px 6px 19px -6px #000000;
 }
 
 .pinq__subTitle {
