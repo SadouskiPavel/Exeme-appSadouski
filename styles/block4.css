@@ -38,6 +38,7 @@
     margin-top: 40px;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     width: 1380px;
     height: 1218px;
