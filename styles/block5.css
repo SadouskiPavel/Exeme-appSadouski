@@ -1,0 +1,111 @@
+.block5 {
+    display: flex;
+    max-width: 1440px;
+    height: 1248px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/block5-backgraund.svg);
+    background-repeat: no-repeat;
+}
+
+.block5__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: 968px;
+}
+
+.block5__review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1440px;
+    height: 580px;
+}
+
+.block5__subTitle {
+    font-size: 36px;
+    font-weight: 400;
+    color: var(--color-olivia);
+    font-family: 'Yellowtail', cursive , sans-serif;
+}
+
+.block5__title {
+   font-size: 45px;
+   font-weight: 700;
+   color: var(--color-greyBlack);
+   font-family: 'Roboto', sans-serif; 
+}
+
+.rating__review {
+    width: 90px;
+}
+
+.block5__commentReview {
+    width: 550px;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-greyBlack);
+    font-family: 'Roboto', sans-serif;
+}
+
+.block5__userName {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--color-greyBlack);
+    font-family: 'Roboto', sans-serif;
+}
+
+.block5__userClass {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-greyBlack);
+    font-family: 'Roboto', sans-serif;
+}
+
+.block5__indicators {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1104px;
+    height: 388px;
+}
+
+.indicators__organic {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    outline: solid var(--color-greenWhite);
+    align-items: center;
+    justify-content: center;
+}
+
+.indicators__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 104px;
+    height: 86px;
+}
+
+.indicators__quantity {
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--color-greyBlack);
+    font-family: 'Roboto', sans-serif;
+}
+
+.indicators__description {
+    display: flex;
+    width: 157px;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-greyBlack);
+    font-family: 'Roboto', sans-serif;
+}
