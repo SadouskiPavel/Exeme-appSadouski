@@ -60,3 +60,104 @@
     width: 38px;
     height: 38px;
 }
+
+@media (max-width: 1152px) {
+    .container {
+        min-height: 9774px;
+    }
+    .header {
+        justify-content: center;
+    }
+    .nav__link {
+        display: none;
+    }
+    .basket__shop {
+        margin-right: 0;
+        width: 20%;
+    }
+    .block1 {
+        margin-top: 10px;
+        height: 725px;
+    }
+    .block1__background {
+        max-width: 1152px;
+        justify-content: space-around;
+        background-size: 100%;
+        height: 713px;
+    }
+    .block2 {
+        width: 1152px;
+        margin-top: 0;
+        min-height: 820px;
+    }
+    .block3 {
+        /* min-width: 1152px; */
+        max-height: 650px;
+    }
+    .block3__container {
+        min-width: 1152px;
+        max-height: 650px;
+    }
+    .block3__image {
+        display: none;
+    }
+    .block3__content {
+        align-items: center;
+        justify-content: center;
+    }
+    .block4 {
+        min-width: 1152px;
+        min-height: 2050px;
+    }
+    .block4__contentTitle {
+        /* top: 40px;
+        position: relative; */
+        max-width: 1152px;
+    }
+    .block4__card {
+        max-width: 1152px;
+        min-height: 1850px;
+    }
+    .block5 {
+        width: 1152px;
+        background-size: 100%;
+    }
+    .block5__container {
+        max-width: 1152px;
+        min-height: 1168px;
+    }
+    .block5__review {
+        max-width: 1152px;
+    }
+    .block5__indicators {
+        display: none;
+    }
+    .block6 {
+        width: 1152px;
+        max-height: 800px;
+    }
+    .block6__container {
+        max-width: 1152px;
+    }
+    .block6__tableContent {
+        max-width: 1152px;
+        flex-direction: column;
+    }
+    .block6__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .block6__card {
+        max-width: 1152px;
+    }
+    .container__card.container__card--block6 {
+        display: none;
+    }
+    .block7__contentInfo {
+        right: 0px;
+    }
+    .block10__utilitPages {
+        
+    }
+}

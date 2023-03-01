@@ -35,9 +35,9 @@
 }
 
 .block4__card {
-    margin-top: 40px;
+    /* margin-top: 40px; */
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 1380px;
