@@ -19,6 +19,7 @@
     width: 675px;
     height: 642px;
     background-image: url(../images/block3.svg);
+    background-repeat: no-repeat;
 }
 
 .block3__content {
